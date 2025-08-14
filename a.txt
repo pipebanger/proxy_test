@@ -1,1 +1,0 @@
-Использование: proxy_test.exe protocol://user:pass@address:port
