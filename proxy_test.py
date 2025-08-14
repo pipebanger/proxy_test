@@ -29,6 +29,7 @@ proxies = {
 }
 
 test_url = 'http://httpbin.org/ip'
+
 try:
     response = requests.get(test_url, proxies=proxies, timeout=10)
     response_json = response.json()
